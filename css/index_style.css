@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: antiquewhite;
+}
+header{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    border: 1px gray solid;
+    border-radius: 50px;
+}
+.logo-header{
+    background-image: url('../pictures/001.png');
+    background-repeat: no-repeat;
+    width: 10%;
+    background-size: 80px 80px;
+    background-position: 50% 50%;
+}
+.slogan{
+    text-align: center;
+    width: 60%;
+    height: 10vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:large;
+    padding-top: 15px;
+}
+.sign-in{
+    width: 15%;
+    height: 100%;
+    background-image: url('../pictures/go.png');
+    background-size: 80px 80px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+
+}
+.sign-up{
+    width: 15%;
+    height: 100%;
+    background-image: url('../pictures/plus.png');
+    background-size: 80px 80px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+.center{
+    height: 100%;
+    width: 100%;
+}
+a{
+    display: block;
+    width: 30%;
+    height: 70%;
+    position: 50% 50%;
+    margin-top: 10%;
+}
+.a1{
+    display: block;
+    width: 50%;
+    height: 70%;
+    margin-left: 25%;
+    position: 50% 50%;
+    margin-top: 10%;
+}
+.contenue{
+    height: 72vh;
+    background-image: url('../pictures/basic white logo in page.png');
+    background-size: 500px 500px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.invitation{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    height: 10%;
+    margin-top: 5%;
+}
+footer{
+    border: 1px gray solid;
+    height: 10vh;
+    border-radius: 50px;
+}
+.contacts{
+    display: flex;
+    width: 60%;
+    margin-left: 20%;
+}
+.c1{
+    height: 28px;
+    width: 20%;
+    
+    margin-left: 10%;
+    margin-right: 5%;
+    background-image:url('../pictures/insta.png') ;
+    background-position: 50% 50%;
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+}
+.c2{
+    height: 28px;
+    width: 20%;
+    
+    margin-right: 5%;
+    margin-left: 5%;
+    background-image:url('../pictures/phone.png') ;
+    background-position: 50% 50%;
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+}
+.c3{
+    height: 28px;
+    width: 20%;
+    
+    margin-left: 5%;
+    margin-right: 10%;
+    background-image:url('../pictures/mail.png') ;
+    background-position: 50% 50%;
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+}

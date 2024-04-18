@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+}
+header{
+    width: 100%;
+    height: 10vh;
+    border: 1px gray solid;
+    border-radius: 50px;
+    display: flex;
+}
+.logo-header{
+    background-image: url('../pictures/001.png');
+    background-repeat: no-repeat;
+    width: 10%;
+    background-size:80px 80px;
+    background-position: 50% 50%;
+}
+.message{
+    color: white;
+    width: 80%;
+    margin-top: 15px;
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.sign-in{
+    width: 10%;
+    height: 100%;
+    background-image: url('../pictures/go.png');
+    background-size: 80px 80px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+.center{
+    height: 100%;
+    width: 100%;
+}
+a{
+    display: block;
+    width: 30%;
+    height: 70%;
+    position: 50% 50%;
+    margin-top: 10%;
+}
+.a1{
+    display: block;
+    width: 50%;
+    height: 70%;
+    margin-left: 25%;
+    position: 50% 50%;
+    margin-top: 10%;
+}
+.contenue{
+    width: 100%;
+    height: 90vh;
+    background-image: url('../pictures/basic white logo in page.png');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.form{
+    padding-top: 5%;
+}
+input{
+    border-radius: 50px;
+    display: flex;
+    margin-top: 10px;
+    width: 40%;
+}
+label{
+    display: inline;
+    background-color: rgb(61, 45, 45);
+    border-radius: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+button{
+    width: 40%;
+    border: 10px rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: rgb(61, 45, 45);
+    color: white;
+    margin-top: 25px;
+}
+footer{
+    width: 100%;
+    height: 10vh;
+    border: 1px gray solid;
+    border-radius: 50px;
+}
+.contacts{
+    display: flex;
+    width: 60%;
+    margin-left: 20%;
+}
+.c1{
+    height: 28px;
+    width: 20%;
+    
+    margin-left: 10%;
+    margin-right: 5%;
+    background-image:url('../pictures/insta.png') ;
+    background-position: 50% 50%;
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+}
+.c2{
+    height: 28px;
+    width: 20%;
+   
+    margin-right: 5%;
+    margin-left: 5%;
+    background-image:url('../pictures/phone.png') ;
+    background-position: 50% 50%;
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+}
+.c3{
+    height: 28px;
+    width: 20%;
+    
+    margin-left: 5%;
+    margin-right: 10%;
+    background-image:url('../pictures/mail.png') ;
+    background-position: 50% 50%;
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+}
+input[type=submit]{
+    background-color:transparent;
+    color: white;
+    background-color: black;
+    width: 70px;
+    text-align: center;
+    border: 1px gray solid;
+}

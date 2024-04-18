@@ -1,0 +1,217 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: antiquewhite;
+}
+header{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    border: 1px gray solid;
+    border-radius: 50px;
+}
+.logo-header{
+    background-image: url('../pictures/001.png');
+    background-repeat: no-repeat;
+    width: 10%;
+    background-size: 80px 80px;
+    background-position: 50% 50%;
+}
+.slogan{
+    text-align: center;
+    width: 60%;
+    height: 10vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:large;
+    padding-top: 15px;
+}
+.user-name{
+    width: 10%;
+    height: 80%;
+    margin-top: 6px;
+    margin-left: 3%;
+    background-image: url('../pictures/user.png');
+    background-position: 50% 50%;
+    background-size: 80px 80px;
+    background-repeat: no-repeat;
+}
+.logout{
+    width: 10%;
+    height: 80%;
+    margin-top: 6px;
+    margin-left: 5%;
+    background-image: url('../pictures/logout.png');
+    background-position: 50% 50%;
+    background-size: 80px 80px;
+    background-repeat: no-repeat;
+}
+.a2{
+    display: block;
+    width: 50%;
+    height: 70%;
+    margin-left: 25%;
+    position: 50% 50%;
+    margin-top: 10%;
+}
+a{
+    display: block;
+    width: 30%;
+    height: 70%;
+    position: 50% 50%;
+    margin-top: 10%;
+}
+.a1{
+    display: block;
+    width: 50%;
+    height: 70%;
+    margin-left: 25%;
+    position: 50% 50%;
+    margin-top: 10%;
+}
+.contenue{
+    display: flex;
+    height: 90vh;
+    background-image: url('../pictures/basic white logo in page.png');
+    background-size: 500px 500px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.images{
+    width: 45%;
+    border: 1px gray solid;
+    border-radius: 50px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+.green{
+    width: 70%;
+    height: 25vh;
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
+    margin-left: 15%;
+    margin-right: 15%;
+    border: 1px gray solid;
+    border-radius: 50px;
+    background-image: url('../pictures/itachi\ green.png');
+    background-size: 120px 120px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+.black{
+    width: 70%;
+    height: 25vh;
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
+    margin-left: 15%;
+    margin-right: 15%;
+    border: 1px gray solid;
+    border-radius: 50px;
+    background-image: url('../pictures/itachi\ black.png');
+    background-size: 120px 120px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+.white{
+    width: 70%;
+    height: 25vh;
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
+    margin-left: 15%;
+    margin-right: 15%;
+    border: 1px gray solid;
+    border-radius: 50px;
+    background-image: url('../pictures/itachi\ white.png');
+    background-size: 120px 120px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+.form{
+    width: 45%;
+    border: 1px gray solid;
+    border-radius: 50px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    padding-top: 3.5vh;
+}
+input{
+    border-radius: 10px;
+   margin-top: 1vh;
+   margin-bottom: 1.5vh;
+   color: black;
+}
+label{
+    background-color: rgb(193, 193, 193);
+    border-radius: 8px;
+    color: black;
+    padding: 5px;
+   
+}
+p{
+    background-color: rgb(193, 193, 193);
+    border-radius: 8px;
+    color: black;
+    padding: 5px; 
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 0.5vh;
+    margin-bottom: 1vh;
+}
+input[type=submit]{
+    margin-top: 1vh;
+    width: 40%;
+    background-color: rgb(193, 193, 193);
+
+}
+input[type=number]{
+    margin-top: 1vh;
+}
+footer{
+    border: 1px gray solid;
+    height: 10vh;
+    border-radius: 50px;
+}
+.contacts{
+    display: flex;
+    width: 60%;
+    margin-left: 20%;
+}
+.c1{
+    height: 28px;
+    width: 20%;
+    
+    margin-left: 10%;
+    margin-right: 5%;
+    background-image:url('../pictures/insta.png') ;
+    background-position: 50% 50%;
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+}
+.c2{
+    height: 28px;
+    width: 20%;
+    
+    margin-right: 5%;
+    margin-left: 5%;
+    background-image:url('../pictures/phone.png') ;
+    background-position: 50% 50%;
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+}
+.c3{
+    height: 28px;
+    width: 20%;
+   
+    margin-left: 5%;
+    margin-right: 10%;
+    background-image:url('../pictures/mail.png') ;
+    background-position: 50% 50%;
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+}

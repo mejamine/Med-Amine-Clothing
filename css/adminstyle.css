@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: antiquewhite;
+}
+header{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    border: 1px gray solid;
+    border-radius: 50px;
+}
+.message{
+    display: block;
+    width: 100%;
+    position: 50% 50%;
+    height: 100%;
+    padding-top: 3%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: rgb(198, 198, 198);
+}
+.contenue{
+    height: 70vh;
+    background-image: url('../pictures/basic white logo in page.png');
+    background-size: 400px 400px;
+    background-position: 50% 10%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 300px;
+}
+.userdiv{
+    margin-bottom: 20px;
+}
+.jobs{
+    display: flex;
+}
+.B_users{
+    width: 40%;
+    border-radius: 50px;
+}
+.div1{
+    width: 20%;
+}
+.B{
+    border-radius: 50px;
+    width:100%;
+}
+footer{
+    height: 10vh;
+    width: 100%;
+}
+.logout{
+    background-image: url('../pictures/logout.png');
+    background-position: 50% 50%;
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 100%;
+    margin-left: 25%;
+}
+.a1{
+    margin-top: 40px;
+    width: 60px;
+    height: 60px;
+    display: block;
+
+}
+
